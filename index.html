@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>MAT 121 E-Coursepack: Statistics I</title>
+  <meta name="description" content="The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="MAT 121 E-Coursepack: Statistics I" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="pengdsci/MAT121EB" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="MAT 121 E-Coursepack: Statistics I" />
+  
+  <meta name="twitter:description" content="The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Cheng Peng" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="frequency-tables-and-charts.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<center> <li><a href="./"><b>MAT 121 E-Coursepack: Statistics I </b></a><br><font color = "navy">Cheng Peng @WCU</font></li></center>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html"><i class="fa fa-check"></i><b>2</b> Frequency Tables and Charts</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#basic-statistical-terminologies"><i class="fa fa-check"></i><b>2.1</b> Basic Statistical Terminologies</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#what-is-statistics"><i class="fa fa-check"></i><b>2.1.1</b> What is statistics?</a></li>
+<li class="chapter" data-level="2.1.2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#population-vs-sample"><i class="fa fa-check"></i><b>2.1.2</b> Population vs Sample</a></li>
+<li class="chapter" data-level="2.1.3" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#types-statistics-and-data"><i class="fa fa-check"></i><b>2.1.3</b> Types Statistics and Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#summarizing-qualitative-data"><i class="fa fa-check"></i><b>2.2</b> Summarizing Qualitative Data</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#frequency-tables"><i class="fa fa-check"></i><b>2.2.1</b> Frequency Tables</a></li>
+<li class="chapter" data-level="2.2.2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#charting-categorical-data"><i class="fa fa-check"></i><b>2.2.2</b> Charting Categorical Data</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#summary-of-numerical-data"><i class="fa fa-check"></i><b>2.3</b> Summary of Numerical Data</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#frequency-table"><i class="fa fa-check"></i><b>2.3.1</b> Frequency Table</a></li>
+<li class="chapter" data-level="2.3.2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#histogram"><i class="fa fa-check"></i><b>2.3.2</b> Histogram</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#exercises"><i class="fa fa-check"></i><b>2.4</b> Exercises</a></li>
+<li class="chapter" data-level="2.5" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#use-of-technology"><i class="fa fa-check"></i><b>2.5</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#course-grade-data"><i class="fa fa-check"></i><b>2.5.1</b> Course Grade Data</a></li>
+<li class="chapter" data-level="2.5.2" data-path="frequency-tables-and-charts.html"><a href="frequency-tables-and-charts.html#length-of-cd-data"><i class="fa fa-check"></i><b>2.5.2</b> Length of CD data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="numerical-measures.html"><a href="numerical-measures.html"><i class="fa fa-check"></i><b>3</b> Numerical Measures</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="numerical-measures.html"><a href="numerical-measures.html#notations-using-greek-letters-for-parameters"><i class="fa fa-check"></i><b>3.1</b> Notations Using Greek Letters for Parameters</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="numerical-measures.html"><a href="numerical-measures.html#big-sigma-sigma-notation"><i class="fa fa-check"></i><b>3.1.1</b> Big Sigma (<span class="math inline">\(\Sigma\)</span>) Notation</a></li>
+<li class="chapter" data-level="3.1.2" data-path="numerical-measures.html"><a href="numerical-measures.html#notations-for-parameters-and-statistics"><i class="fa fa-check"></i><b>3.1.2</b> Notations for Parameters and Statistics</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="numerical-measures.html"><a href="numerical-measures.html#measures-of-center"><i class="fa fa-check"></i><b>3.2</b> Measures of Center</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="numerical-measures.html"><a href="numerical-measures.html#mean"><i class="fa fa-check"></i><b>3.2.1</b> Mean</a></li>
+<li class="chapter" data-level="3.2.2" data-path="numerical-measures.html"><a href="numerical-measures.html#median"><i class="fa fa-check"></i><b>3.2.2</b> Median</a></li>
+<li class="chapter" data-level="3.2.3" data-path="numerical-measures.html"><a href="numerical-measures.html#mode"><i class="fa fa-check"></i><b>3.2.3</b> Mode</a></li>
+<li class="chapter" data-level="3.2.4" data-path="numerical-measures.html"><a href="numerical-measures.html#relationship-between-mean-median-and-mode"><i class="fa fa-check"></i><b>3.2.4</b> Relationship between Mean, Median, and Mode</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="numerical-measures.html"><a href="numerical-measures.html#measures-of-variation"><i class="fa fa-check"></i><b>3.3</b> Measures of Variation</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="numerical-measures.html"><a href="numerical-measures.html#variance"><i class="fa fa-check"></i><b>3.3.1</b> Variance</a></li>
+<li class="chapter" data-level="3.3.2" data-path="numerical-measures.html"><a href="numerical-measures.html#standard-deviation"><i class="fa fa-check"></i><b>3.3.2</b> Standard Deviation</a></li>
+<li class="chapter" data-level="3.3.3" data-path="numerical-measures.html"><a href="numerical-measures.html#steps-for-calculating-variance"><i class="fa fa-check"></i><b>3.3.3</b> Steps for Calculating Variance</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="numerical-measures.html"><a href="numerical-measures.html#measures-of-location"><i class="fa fa-check"></i><b>3.4</b> Measures of Location</a></li>
+<li class="chapter" data-level="3.5" data-path="numerical-measures.html"><a href="numerical-measures.html#z-score"><i class="fa fa-check"></i><b>3.5</b> z-score</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="numerical-measures.html"><a href="numerical-measures.html#percentile"><i class="fa fa-check"></i><b>3.5.1</b> Percentile</a></li>
+<li class="chapter" data-level="3.5.2" data-path="numerical-measures.html"><a href="numerical-measures.html#applications-of-numeric-measures"><i class="fa fa-check"></i><b>3.5.2</b> Applications of Numeric Measures</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="numerical-measures.html"><a href="numerical-measures.html#use-of-technology-1"><i class="fa fa-check"></i><b>3.6</b> Use of Technology</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html"><i class="fa fa-check"></i><b>4</b> Concepts of Probability</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#definitions-of-probability"><i class="fa fa-check"></i><b>4.1</b> Definitions of Probability</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#experiment-and-event"><i class="fa fa-check"></i><b>4.1.1</b> Experiment and Event</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#definition-of-probabilities"><i class="fa fa-check"></i><b>4.2</b> Definition of Probabilities</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#definitions-of-probability-1"><i class="fa fa-check"></i><b>4.2.1</b> Definitions of Probability</a></li>
+<li class="chapter" data-level="4.2.2" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#some-examples"><i class="fa fa-check"></i><b>4.2.2</b> Some Examples</a></li>
+<li class="chapter" data-level="4.2.3" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#discrete-probabilities-on-contingency-tables"><i class="fa fa-check"></i><b>4.2.3</b> Discrete Probabilities on Contingency Tables</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#concepts-of-random-variables"><i class="fa fa-check"></i><b>4.3</b> Concepts of Random Variables</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#discrete-random-variable"><i class="fa fa-check"></i><b>4.3.1</b> Discrete Random Variable</a></li>
+<li class="chapter" data-level="4.3.2" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#continuous-random-variable-and-density-functions"><i class="fa fa-check"></i><b>4.3.2</b> Continuous Random Variable and Density Functions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="concepts-of-probability.html"><a href="concepts-of-probability.html#uniform-random-variable---a-special-continuous-distribution"><i class="fa fa-check"></i><b>4.4</b> Uniform Random Variable - A Special Continuous Distribution</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="normal-distributions.html"><a href="normal-distributions.html"><i class="fa fa-check"></i><b>5</b> Normal Distributions</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="normal-distributions.html"><a href="normal-distributions.html#standard-normal-distribution"><i class="fa fa-check"></i><b>5.1</b> Standard Normal Distribution</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="normal-distributions.html"><a href="normal-distributions.html#finding-probabilities"><i class="fa fa-check"></i><b>5.1.1</b> Finding Probabilities</a></li>
+<li class="chapter" data-level="5.1.2" data-path="normal-distributions.html"><a href="normal-distributions.html#finding-percentiles"><i class="fa fa-check"></i><b>5.1.2</b> Finding Percentiles</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="normal-distributions.html"><a href="normal-distributions.html#general-normal-distribution"><i class="fa fa-check"></i><b>5.2</b> General Normal Distribution</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="normal-distributions.html"><a href="normal-distributions.html#finding-probabilities-1"><i class="fa fa-check"></i><b>5.2.1</b> Finding Probabilities</a></li>
+<li class="chapter" data-level="5.2.2" data-path="normal-distributions.html"><a href="normal-distributions.html#finding-percentiles-1"><i class="fa fa-check"></i><b>5.2.2</b> Finding Percentiles</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="normal-distributions.html"><a href="normal-distributions.html#use-of-technology-2"><i class="fa fa-check"></i><b>5.3</b> Use of Technology</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html"><i class="fa fa-check"></i><b>6</b> CLT and Sampling Distributions</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#central-limit-theorem-clt"><i class="fa fa-check"></i><b>6.1</b> Central Limit Theorem (CLT)</a></li>
+<li class="chapter" data-level="6.2" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#sampling-distribution-of-sample-proportion-hatp"><i class="fa fa-check"></i><b>6.2</b> Sampling Distribution of Sample Proportion <span class="math inline">\(\hat{p}\)</span></a></li>
+<li class="chapter" data-level="6.3" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#use-of-technology-3"><i class="fa fa-check"></i><b>6.3</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#clt-demo"><i class="fa fa-check"></i><b>6.3.1</b> CLT Demo</a></li>
+<li class="chapter" data-level="6.3.2" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#clt-for-mean"><i class="fa fa-check"></i><b>6.3.2</b> CLT for Mean</a></li>
+<li class="chapter" data-level="6.3.3" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#clt-for-proportion"><i class="fa fa-check"></i><b>6.3.3</b> CLT for Proportion</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="clt-and-sampling-distributions.html"><a href="clt-and-sampling-distributions.html#practice-exercises"><i class="fa fa-check"></i><b>6.4</b> Practice Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html"><i class="fa fa-check"></i><b>7</b> Confidence Intervals for Population Means</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#a-general-framework"><i class="fa fa-check"></i><b>7.1</b> A General Framework</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#some-technical-terms"><i class="fa fa-check"></i><b>7.1.1</b> Some Technical Terms</a></li>
+<li class="chapter" data-level="7.1.2" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#issues-of-a-point-estimate-and-the-logic-for-developing-a-solution"><i class="fa fa-check"></i><b>7.1.2</b> Issues of A Point Estimate and the Logic for Developing A Solution</a></li>
+<li class="chapter" data-level="7.1.3" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#general-framework-of-confidence-intervals"><i class="fa fa-check"></i><b>7.1.3</b> General Framework of Confidence Intervals</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#formal-steps-for-constructing-c.i."><i class="fa fa-check"></i><b>7.2</b> Formal Steps For Constructing C.I.</a></li>
+<li class="chapter" data-level="7.3" data-path="confidence-intervals-for-population-means.html"><a href="confidence-intervals-for-population-means.html#use-of-technology-4"><i class="fa fa-check"></i><b>7.3</b> Use of Technology</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html"><i class="fa fa-check"></i><b>8</b> Confidence Intervals for Population Means and Proportions</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#confidence-interval-of-proportion"><i class="fa fa-check"></i><b>8.1</b> Confidence Interval of Proportion</a></li>
+<li class="chapter" data-level="8.2" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#t---confidence-interval-for-mean-mu"><i class="fa fa-check"></i><b>8.2</b> t - Confidence Interval for Mean (<span class="math inline">\(\mu\)</span>)</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#t-distribution-and-t-table"><i class="fa fa-check"></i><b>8.2.1</b> t-distribution and t-Table</a></li>
+<li class="chapter" data-level="8.2.2" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#t-confidence-interval"><i class="fa fa-check"></i><b>8.2.2</b> t-confidence Interval</a></li>
+<li class="chapter" data-level="8.2.3" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#normal-or-t-confidence-interval-a-summary"><i class="fa fa-check"></i><b>8.2.3</b> Normal or t-Confidence Interval: A Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#use-of-technology-5"><i class="fa fa-check"></i><b>8.3</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#introstatsapps-normal-ci"><i class="fa fa-check"></i><b>8.3.1</b> <strong>IntroStatsApps</strong>: Normal CI</a></li>
+<li class="chapter" data-level="8.3.2" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#introstatsapps-t-ci"><i class="fa fa-check"></i><b>8.3.2</b> <strong>IntroStatsApps</strong>: t-CI</a></li>
+<li class="chapter" data-level="8.3.3" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#introstatsapps-t-table"><i class="fa fa-check"></i><b>8.3.3</b> <strong>IntroStatsApps</strong>: t-Table</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="confidence-intervals-for-population-means-and-proportions.html"><a href="confidence-intervals-for-population-means-and-proportions.html#practice-exercises-1"><i class="fa fa-check"></i><b>8.4</b> Practice Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html"><i class="fa fa-check"></i><b>9</b> The Logic and Components of Hypothesis Testing</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#steps-for-hypothesis-testing-some-analogies"><i class="fa fa-check"></i><b>9.1</b> Steps for Hypothesis Testing: Some Analogies</a></li>
+<li class="chapter" data-level="9.2" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#components-of-testing-hypothesis"><i class="fa fa-check"></i><b>9.2</b> Components of Testing Hypothesis</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#the-claim-or-practical-hypothesis"><i class="fa fa-check"></i><b>9.2.1</b> The claim (or practical hypothesis)</a></li>
+<li class="chapter" data-level="9.2.2" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#null-and-alternative-hypotheses"><i class="fa fa-check"></i><b>9.2.2</b> Null and Alternative Hypotheses</a></li>
+<li class="chapter" data-level="9.2.3" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#test-statistic"><i class="fa fa-check"></i><b>9.2.3</b> Test Statistic</a></li>
+<li class="chapter" data-level="9.2.4" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#significance-level-and-critical-values"><i class="fa fa-check"></i><b>9.2.4</b> Significance Level and Critical Value(s)</a></li>
+<li class="chapter" data-level="9.2.5" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#statistical-decision-on-ho"><i class="fa fa-check"></i><b>9.2.5</b> Statistical Decision on <font color = "red"><strong>Ho</strong></font></a></li>
+<li class="chapter" data-level="9.2.6" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#conclusion-about-the-claim"><i class="fa fa-check"></i><b>9.2.6</b> Conclusion about the Claim</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#formal-steps-for-hypothesis-testing"><i class="fa fa-check"></i><b>9.3</b> Formal Steps for Hypothesis Testing</a></li>
+<li class="chapter" data-level="9.4" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#types-of-hypothesis-tests"><i class="fa fa-check"></i><b>9.4</b> Types of Hypothesis Tests</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#two-tailed-test"><i class="fa fa-check"></i><b>9.4.1</b> Two-tailed Test</a></li>
+<li class="chapter" data-level="9.4.2" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#right-tailed-test"><i class="fa fa-check"></i><b>9.4.2</b> Right-tailed Test</a></li>
+<li class="chapter" data-level="9.4.3" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#left-tailed-test"><i class="fa fa-check"></i><b>9.4.3</b> Left-tailed Test</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="the-logic-and-components-of-hypothesis-testing.html"><a href="the-logic-and-components-of-hypothesis-testing.html#use-of-technology-6"><i class="fa fa-check"></i><b>9.5</b> Use of Technology</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html"><i class="fa fa-check"></i><b>10</b> Hypothesis Testing: Normal Tests</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#introduction-1"><i class="fa fa-check"></i><b>10.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#recall-the-6-step-procedure-of-testing-hypotheses"><i class="fa fa-check"></i><b>10.1.1</b> Recall the 6-step procedure of testing hypotheses</a></li>
+<li class="chapter" data-level="10.1.2" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#a-review-example"><i class="fa fa-check"></i><b>10.1.2</b> A Review Example</a></li>
+</ul></li>
+<li class="chapter" data-level="10.2" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#testing-population-means-using-p-value-method"><i class="fa fa-check"></i><b>10.2</b> Testing Population Means Using P-value Method</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#what-is-p-value"><i class="fa fa-check"></i><b>10.2.1</b> What is P-value?</a></li>
+<li class="chapter" data-level="10.2.2" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#definitions-of-p-values"><i class="fa fa-check"></i><b>10.2.2</b> Definitions of P-values</a></li>
+<li class="chapter" data-level="10.2.3" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#summary-of-p-value"><i class="fa fa-check"></i><b>10.2.3</b> Summary of p-Value</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#testing-hypotheses-about-population-proportions"><i class="fa fa-check"></i><b>10.3</b> Testing Hypotheses About Population Proportions</a></li>
+<li class="chapter" data-level="10.4" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#use-of-technology-7"><i class="fa fa-check"></i><b>10.4</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="10.4.1" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#normal-test-for-means"><i class="fa fa-check"></i><b>10.4.1</b> Normal Test for Means</a></li>
+<li class="chapter" data-level="10.4.2" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#normal-test-for-proportion"><i class="fa fa-check"></i><b>10.4.2</b> Normal Test for Proportion</a></li>
+</ul></li>
+<li class="chapter" data-level="10.5" data-path="hypothesis-testing-normal-tests.html"><a href="hypothesis-testing-normal-tests.html#practice-exercises-2"><i class="fa fa-check"></i><b>10.5</b> Practice Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html"><i class="fa fa-check"></i><b>11</b> Hypothesis Testing: t-tests</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#t-test-for-normal-population-means"><i class="fa fa-check"></i><b>11.1</b> t-test for Normal Population Means</a></li>
+<li class="chapter" data-level="11.2" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#t-test-for-paired-samples"><i class="fa fa-check"></i><b>11.2</b> t-test for Paired Samples</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#what-are-paired-samples"><i class="fa fa-check"></i><b>11.2.1</b> What Are Paired Samples?</a></li>
+<li class="chapter" data-level="11.2.2" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#the-logic-of-paired-t-test"><i class="fa fa-check"></i><b>11.2.2</b> The Logic of Paired t-test</a></li>
+<li class="chapter" data-level="11.2.3" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#steps-for-paired-t-test"><i class="fa fa-check"></i><b>11.2.3</b> Steps for Paired t-test</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#use-of-technology-8"><i class="fa fa-check"></i><b>11.3</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#one-sample-t-test"><i class="fa fa-check"></i><b>11.3.1</b> One-sample t-test</a></li>
+<li class="chapter" data-level="11.3.2" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#paired-t-test"><i class="fa fa-check"></i><b>11.3.2</b> Paired t-test</a></li>
+</ul></li>
+<li class="chapter" data-level="11.4" data-path="hypothesis-testing-t-tests.html"><a href="hypothesis-testing-t-tests.html#practice-exercises-3"><i class="fa fa-check"></i><b>11.4</b> Practice Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="two-sample-tests.html"><a href="two-sample-tests.html"><i class="fa fa-check"></i><b>12</b> Two-sample Tests</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="two-sample-tests.html"><a href="two-sample-tests.html#testing-two-populations-means-large-samples"><i class="fa fa-check"></i><b>12.1</b> Testing Two Populations Means: Large Samples</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="two-sample-tests.html"><a href="two-sample-tests.html#test-statistic-and-its-sampling-distribution"><i class="fa fa-check"></i><b>12.1.1</b> Test Statistic and Its Sampling Distribution</a></li>
+<li class="chapter" data-level="12.1.2" data-path="two-sample-tests.html"><a href="two-sample-tests.html#steps-for-testing-two-means"><i class="fa fa-check"></i><b>12.1.2</b> Steps for Testing Two Means</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="two-sample-tests.html"><a href="two-sample-tests.html#two-sample-t-tests"><i class="fa fa-check"></i><b>12.2</b> Two-sample t-tests</a></li>
+<li class="chapter" data-level="12.3" data-path="two-sample-tests.html"><a href="two-sample-tests.html#two-sample-test-workflow-summary"><i class="fa fa-check"></i><b>12.3</b> Two-sample Test Workflow: Summary</a></li>
+<li class="chapter" data-level="12.4" data-path="two-sample-tests.html"><a href="two-sample-tests.html#practice-exercises-4"><i class="fa fa-check"></i><b>12.4</b> Practice Exercises</a></li>
+<li class="chapter" data-level="12.5" data-path="two-sample-tests.html"><a href="two-sample-tests.html#use-of-technology-9"><i class="fa fa-check"></i><b>12.5</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="12.5.1" data-path="two-sample-tests.html"><a href="two-sample-tests.html#two-sample-test-large-samples"><i class="fa fa-check"></i><b>12.5.1</b> Two-sample Test: Large Samples</a></li>
+<li class="chapter" data-level="12.5.2" data-path="two-sample-tests.html"><a href="two-sample-tests.html#two-sample-t-test"><i class="fa fa-check"></i><b>12.5.2</b> Two-sample t-test</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html"><i class="fa fa-check"></i><b>13</b> Correlation and Least Square Regression</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#correlation-coefficient"><i class="fa fa-check"></i><b>13.1</b> Correlation Coefficient</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#linear-correlations"><i class="fa fa-check"></i><b>13.1.1</b> Linear Correlations</a></li>
+<li class="chapter" data-level="13.1.2" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#linear-correlation-coefficient"><i class="fa fa-check"></i><b>13.1.2</b> Linear Correlation Coefficient</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#least-square-regression-lines"><i class="fa fa-check"></i><b>13.2</b> Least Square Regression Lines</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#linear-regression-and-interpretations"><i class="fa fa-check"></i><b>13.2.1</b> Linear Regression and Interpretations</a></li>
+<li class="chapter" data-level="13.2.2" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#estimating-regression-coefficients"><i class="fa fa-check"></i><b>13.2.2</b> Estimating Regression Coefficients</a></li>
+<li class="chapter" data-level="13.2.3" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#coefficient-of-determination"><i class="fa fa-check"></i><b>13.2.3</b> Coefficient of Determination</a></li>
+<li class="chapter" data-level="13.2.4" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#inference-of-regression-coefficients"><i class="fa fa-check"></i><b>13.2.4</b> Inference of Regression Coefficients</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#use-of-technology-10"><i class="fa fa-check"></i><b>13.3</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#understanding-correlation-and-linear-regression---simulation"><i class="fa fa-check"></i><b>13.3.1</b> Understanding Correlation and Linear Regression - Simulation</a></li>
+<li class="chapter" data-level="13.3.2" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#interactive-apps"><i class="fa fa-check"></i><b>13.3.2</b> Interactive Apps</a></li>
+</ul></li>
+<li class="chapter" data-level="13.4" data-path="correlation-and-least-square-regression.html"><a href="correlation-and-least-square-regression.html#practice-exercises-5"><i class="fa fa-check"></i><b>13.4</b> Practice Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="chi-square-tests.html"><a href="chi-square-tests.html"><i class="fa fa-check"></i><b>14</b> Chi-square Tests</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="chi-square-tests.html"><a href="chi-square-tests.html#chi-square-test-of-goodness-of-fit"><i class="fa fa-check"></i><b>14.1</b> Chi-square Test of Goodness-of-fit</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="chi-square-tests.html"><a href="chi-square-tests.html#a-motivational-example"><i class="fa fa-check"></i><b>14.1.1</b> A Motivational Example</a></li>
+<li class="chapter" data-level="14.1.2" data-path="chi-square-tests.html"><a href="chi-square-tests.html#chi-square-distribution"><i class="fa fa-check"></i><b>14.1.2</b> Chi-square Distribution</a></li>
+<li class="chapter" data-level="14.1.3" data-path="chi-square-tests.html"><a href="chi-square-tests.html#formulation-of-chi-square-test-of-goodness-of-fit"><i class="fa fa-check"></i><b>14.1.3</b> Formulation of Chi-square Test of Goodness-of-fit</a></li>
+</ul></li>
+<li class="chapter" data-level="14.2" data-path="chi-square-tests.html"><a href="chi-square-tests.html#chi-square-test-of-independence"><i class="fa fa-check"></i><b>14.2</b> Chi-square Test of Independence</a>
+<ul>
+<li class="chapter" data-level="14.2.1" data-path="chi-square-tests.html"><a href="chi-square-tests.html#independence-of-two-categorical-variables"><i class="fa fa-check"></i><b>14.2.1</b> Independence of Two Categorical Variables</a></li>
+<li class="chapter" data-level="14.2.2" data-path="chi-square-tests.html"><a href="chi-square-tests.html#expected-table-under-independence-assumption-h_0"><i class="fa fa-check"></i><b>14.2.2</b> Expected Table Under Independence Assumption (<strong><span class="math inline">\(H_0\)</span></strong>)</a></li>
+<li class="chapter" data-level="14.2.3" data-path="chi-square-tests.html"><a href="chi-square-tests.html#formulation-of-chi-squares-test-of-independence"><i class="fa fa-check"></i><b>14.2.3</b> Formulation of Chi-squares Test of Independence</a></li>
+</ul></li>
+<li class="chapter" data-level="14.3" data-path="chi-square-tests.html"><a href="chi-square-tests.html#use-of-technology-11"><i class="fa fa-check"></i><b>14.3</b> Use of Technology</a>
+<ul>
+<li class="chapter" data-level="14.3.1" data-path="chi-square-tests.html"><a href="chi-square-tests.html#goodness-of-fit-chi-square"><i class="fa fa-check"></i><b>14.3.1</b> Goodness-of-fit Chi-square</a></li>
+</ul></li>
+<li class="chapter" data-level="14.4" data-path="chi-square-tests.html"><a href="chi-square-tests.html#chi-square-test-of-independence-1"><i class="fa fa-check"></i><b>14.4</b> Chi-square Test of Independence</a></li>
+<li class="chapter" data-level="14.5" data-path="chi-square-tests.html"><a href="chi-square-tests.html#practice-exercises-6"><i class="fa fa-check"></i><b>14.5</b> Practice Exercises</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MAT 121 E-Coursepack: Statistics I</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">MAT 121 E-Coursepack: Statistics I</h1>
+<p class="author"><em>Cheng Peng</em></p>
+<p class="date"><em>West Chester University</em></p>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This <em>E-coursepack</em> is a self-contained homegrown Ebook that contains all topics covered in current MAT 121 at WCU.</p>
+<p>All technical terms used in this Ebook are consistent with those used in the <em>required</em> textbook that costs student about $100. Students are not required to buy the Ebook from a publisher.</p>
+<p>There several benefits of using this <em>E-coursepack</em></p>
+<ul>
+<li><p>It is free!</p></li>
+<li><p>It is convenient! Three formats (PDF, HTML, and ePub) of the E-coursepack are accessible from different devices 7/24.</p></li>
+<li><p>It is focused! This E-course pack only <strong>picks</strong> on the topics required for this course. It is about 150 printed pages comparing 800 plus pages (3.85 pounds) of the Navidi’s textbook.</p></li>
+<li><p>It is organized! The each chapter covers approximately a week’s content.</p></li>
+<li><p>It is more intuitive since the E-coursepack uses visual aids whenever possible.</p></li>
+<li><p>It is interactive and intuitive! The 17 specially designed interactive apps were incorporated into the E-coursepack. You can play with these apps to enhance your understanding of the contents covered every week. You can also use most pf these apps as <strong>solution generator</strong>.</p></li>
+</ul>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="frequency-tables-and-charts.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/pengdsci/MAT121EB/edit/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["MAT121.pdf", "MAT121.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
