@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Normal Distributions | MAT 121 E-Coursepack: Statistics I</title>
+  <title>Topic 5 Normal Distributions | MAT 121 E-Pack: Statistics I</title>
   <meta name="description" content="The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Normal Distributions | MAT 121 E-Coursepack: Statistics I" />
+  <meta property="og:title" content="Topic 5 Normal Distributions | MAT 121 E-Pack: Statistics I" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="The output format for this example is bookdown::gitbook." />
   <meta name="github-repo" content="pengdsci/MAT121EB" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Normal Distributions | MAT 121 E-Coursepack: Statistics I" />
+  <meta name="twitter:title" content="Topic 5 Normal Distributions | MAT 121 E-Pack: Statistics I" />
   
   <meta name="twitter:description" content="The output format for this example is bookdown::gitbook." />
   
@@ -72,7 +72,9 @@
       <nav role="navigation">
 
 <ul class="summary">
-<center> <li><a href="./"><b>MAT 121 E-Coursepack: Statistics I </b></a><br><font color = "navy">Cheng Peng @WCU</font></li></center>
+<center> <li><a href="./"><b>MAT 121 E-Pack: Statistics I </b></a><br><br><center><img src = "logo121.png"  width="85" height="115"></center><br>
+<font color = "red">Copyright &copy Cheng Peng, 2023. All rights reserved.</font>
+</li></center>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
@@ -330,7 +332,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MAT 121 E-Coursepack: Statistics I</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MAT 121 E-Pack: Statistics I</a>
           </h1>
         </div>
 
@@ -339,37 +341,28 @@
 
             <section class="normal" id="section-">
 <div id="normal-distributions" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">Chapter 5</span> Normal Distributions<a href="normal-distributions.html#normal-distributions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<h1><span class="header-section-number">Topic 5</span> Normal Distributions<a href="normal-distributions.html#normal-distributions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>The standard normal distribution is the most frequently used distribution in this course. We will introduce the general normal distributions and focus on two basic questions: Finding probabilities and percentiles using the standard normal table.</p>
 <p><br />
 </p>
 <div id="standard-normal-distribution" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Standard Normal Distribution<a href="normal-distributions.html#standard-normal-distribution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The standard normal distribution, <span class="math inline">\(Z\)</span>, has a mean of <span class="math inline">\(\mu = 0\)</span> and a standard deviation of <span class="math inline">\(\sigma = 1\)</span>. Its probability density curve is</p>
-<center>
-<img src="week04/z-Dist.png" width= "400"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/z-Dist.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>Two basic types of questions need to be answered for any distribution including the standard normal distribution:</p>
 <ol style="list-style-type: decimal">
 <li><p>Finding probability of events such as P(Z &lt; a), P(Z &gt; c), P( a &lt; Z &lt; b), etc.</p></li>
 <li><p>Finding percentiles. For example, finding <span class="math inline">\(z_0\)</span> for given P(Z &lt; <span class="math inline">\(z_0\)</span>) = 0.90.</p></li>
 </ol>
 <p>We have discussed how to find probabilities from the uniform distribution in topic #3 whose density curve is a rectangle. The probabilities of events defined based on uniform distributions are the areas of rectangles using the area formula of a rectangle. We still need to find the probability of events defined based on the standard normal distribution like P(<span class="math inline">\(-0.86 &lt; Z &lt; 0\)</span>) which is still the area of the following shaded region (as outlined in the previous note for any general distribution).</p>
-<center>
-<img src="week04/z-Prob.png" width= "400"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/z-Prob.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><br />
 </p>
 <div id="finding-probabilities" class="section level3 hasAnchor" number="5.1.1">
 <h3><span class="header-section-number">5.1.1</span> Finding Probabilities<a href="normal-distributions.html#finding-probabilities" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Unlike uniform distributions whose density curves are rectangles, we can use the formula to calculate the areas of rectangles. In a standard normal distribution, there is no formula to calculate the area of the shaded irregular region in the above figure.</p>
 <p>We will use a standard normal distribution table to find the area of the left-hand side tail regions shown below (part of the table).</p>
-<center>
-<img src="week04/z-LeftTailArea.png" width= "800"  height="350">
-</center>
-<p><br></p>
+<p><img src="week04/z-LeftTailArea.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>Before doing examples, we point out the basic facts of the standard normal distribution.</p>
 <ol style="list-style-type: decimal">
 <li><p>The density curve is symmetric concerning the vertical axis.</p></li>
@@ -380,37 +373,22 @@
 <p>1). P(Z &lt; - 1.48).</p>
 <p>2). P(Z &lt; 0.25).</p>
 <p><strong>Solution</strong>. First of all, we only keep two decimal places for the z value (also called z-score). When using the table, we first locate the integral part and the first decimal place of the z score in the <strong>first column</strong> and the second decimal place in the <strong>top row</strong>. The <strong>left tail area</strong> is on the interaction of the aforementioned row and column. This is explained in the following figure.</p>
-<center>
-<img src="week04/example01.png" width= "800"  height="350">
-</center>
-<p><br></p>
+<p><img src="week04/example01.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><font color = "darkred"><b>Example 2.</b></font> Find the probabilities indicated, where as always Z denotes a standard normal random variable.</p>
 <p>1). P(Z &gt; - 1.96).</p>
 <p>2). P(Z &gt; 0.75).</p>
 <p><strong>Solution</strong>: The probabilities to be found represent the areas of right tail regions. We can use the table to find the area of the left tail region and then subtract it from 1 to get the desired probability. The following figure illustrates the idea to get the “right-tail” probabilities.</p>
-<center>
-<img src="week04/example02.png" width= "800"  height="350">
-</center>
-<p><br></p>
+<p><img src="week04/example02.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><font color = "darkred"><b>Example 3.</b></font> Find the probabilities indicated, where as always Z denotes a standard normal random variable.</p>
 <p>1). P(-1.96 &lt; Z &lt; 0.75).</p>
 <p><strong>Solution</strong>: The general idea is to find the two <strong>left tail areas</strong> and then take the difference to get the area of the region defined by the two z-scores as shown in the following figure.</p>
-<center>
-<img src="week04/betweenArea.png" width= "500"  height="150">
-</center>
-<p><br></p>
+<p><img src="week04/betweenArea.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>For 1), the probability is found in the following figure.</p>
-<center>
-<img src="week04/example03.png" width= "800"  height="350">
-</center>
-<p><br></p>
+<p><img src="week04/example03.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><strong>Summary of Finding Probabilities</strong></p>
 <p><br />
 </p>
-<center>
-<img src="week04/summaryFindingProb.png" width= "800"  height="500">
-</center>
-<p><br></p>
+<p><img src="week04/summaryFindingProb.png" width="60%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="finding-percentiles" class="section level3 hasAnchor" number="5.1.2">
 <h3><span class="header-section-number">5.1.2</span> Finding Percentiles<a href="normal-distributions.html#finding-percentiles" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -420,18 +398,12 @@
 P(Z &lt; k) = 0.90,
 \]</span>
 for a given q (such as 90%, etc). This is depicted in the following figure.</p>
-<center>
-<img src="week04/findingPercentile.png" width= "500"  height="250">
-</center>
-<p><br></p>
+<p><img src="week04/findingPercentile.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>The process of finding a percentile is the opposite of the process of finding probability. If the given left tail probability itself is in the main body of the table, we then locate the row and the column to find the z-score (i.e., the percentile).</p>
 <p>In general, the given left tail probability is not in the table but is closest to two values in the main boy of the table. Each of the two closed table values corresponds to a z-score. The average of the two z-scores is defined to be the desired percentile.</p>
 <p><font color = "darkred"><b>Example 4.</b></font> Find 90th percentile of the standard normal distribution.</p>
 <p><strong>Solution</strong>: We go to the normal table and find two values in the main body of the table that is closest to 0.9 (see the figure below).</p>
-<center>
-<img src="week04/finding90thPercentile.png" width= "500"  height="500">
-</center>
-<p><br></p>
+<p><img src="week04/finding90thPercentile.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><br />
 </p>
 <p><font color = "darkred"><b>Example 5.</b></font> <strong>The Precision Scientific Instrument Company</strong> manufactures thermometers that are supposed to give readings of <span class="math inline">\(0^oC\)</span> at the freezing point of water. Tests on a large sample of these instruments reveal that the freezing point of water is around zero (some thermometers give positive degrees, some thermometers give negative degrees), Assume that the mean reading is <span class="math inline">\(0^oC\)</span> and the standard deviation of the readings is <span class="math inline">\(1.00^oC\)</span>. Assume further that the readings are normally distributed.</p>
@@ -447,15 +419,9 @@ for a given q (such as 90%, etc). This is depicted in the following figure.</p>
 </ol>
 <p><strong>Solution</strong>: Based on the given information, the thermometer readings follow the standard normal distribution. The standard normal distribution table will be used to answer the above questions. We only do questions 5 (finding probability) and 7 (finding percentile) to work and leave the rest of the questions to you to practice.</p>
 <p>5). <font color = "red">P( -1.5 &lt; Z &lt; 0) = P(Z &lt; 0) - P(Z &lt; -1.5) = 0.5 - P(Z &lt; -1.5) = 0.5 - 0.0668 = 0.4332 </font></p>
-<center>
-<img src="week04/example05-5.png" width= "500"  height="500">
-</center>
-<p><br></p>
+<p><img src="week04/example05-5.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>7). We want to find <span class="math inline">\(P_{95}\)</span>, or equivalently, to find <span class="math inline">\(k\)</span> from <span class="math inline">\(P(Z &lt; k) = 0.95\)</span>. We can see from the normal table that 0.9495 and 0.9505 are the two values that are closest to 0.95. The two corresponding z-scores are 1.64 and 1.65. By the convention, the 95th percentile is the average of the two z-scores (see the figure below).</p>
-<center>
-<img src="week04/example05-7.png" width= "500"  height="500">
-</center>
-<p><br></p>
+<p><img src="week04/example05-7.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><br />
 </p>
 <p><br />
@@ -467,35 +433,23 @@ for a given q (such as 90%, etc). This is depicted in the following figure.</p>
 <p><br />
 </p>
 <p>In practice, we rarely have a standard normal distribution. Many real-world problems are associated with general normal distribution. We still need to answer the two basic types of questions: finding probabilities and percentile. The following figure illustrates the two types of questions based on the normal distribution with a mean of 500 (<span class="math inline">\(\mu = 500\)</span>) and a standard deviation of 100 (<span class="math inline">\(\sigma = 100\)</span>)</p>
-<center>
-<img src="week04/twoTypeQuestions.png" width= "600"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/twoTypeQuestions.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>The question is whether we cannot use the standard normal distribution table to answer the above two types of questions associated with general normal distribution.</p>
 <p>We can use z-score transformation to transform general normal distributions to the standard normal distribution to use the table and then transform back the original general normal distribution. The following figure outlines the above idea.</p>
-<center>
-<img src="week04/z-ScoreTranform.png" width= "600"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/z-ScoreTranform.png" width="60%" style="display: block; margin: auto;" /></p>
 <div id="finding-probabilities-1" class="section level3 hasAnchor" number="5.2.1">
 <h3><span class="header-section-number">5.2.1</span> Finding Probabilities<a href="normal-distributions.html#finding-probabilities-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We use the following example to show the steps for finding the left-tail probabilities.</p>
 <p><font color = "darkred"><b>Example 6.</b></font> Consider the general normal distribution <span class="math inline">\(N(500, 100)\)</span>. Find <span class="math inline">\(P(X &lt; 600) = ?\)</span></p>
 <p><strong>Solution</strong>. The following figure shows the z-score transformation to obtain the answer.</p>
-<center>
-<img src="week04/example06.png" width= "450"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/example06.png" width="60%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="finding-percentiles-1" class="section level3 hasAnchor" number="5.2.2">
 <h3><span class="header-section-number">5.2.2</span> Finding Percentiles<a href="normal-distributions.html#finding-percentiles-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We continue to use the previous normal distribution as an example to show how to find a percentile of the general normal distribution.</p>
 <p><font color = "darkred"><b>Example 7.</b></font> Consider the general normal distribution <span class="math inline">\(N(500, 100)\)</span>. Find the 15th percentile.</p>
 <p><strong>Solution: </strong> We are given that the left tail area is 0.15. After z-score transformation, the left tail area of the standard normal density curve is also 0.15 (see the following figure). We can find <span class="math inline">\(Z_0\)</span> from <span class="math inline">\(P(Z &lt; Z_0) = 0.15\)</span> using the standard normal table which is <span class="math inline">\(Z_0 \approx -1.04\)</span>.</p>
-<center>
-<img src="week04/example07.png" width= "500"  height="180">
-</center>
-<p><br></p>
+<p><img src="week04/example07.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>Using the relationship between <span class="math inline">\(Z_0\)</span> and <span class="math inline">\(K\)</span> in the z-score transformation (see the above figure). We have</p>
 <p><span class="math display">\[
 -1.04 = \frac{K - 500}{100}
@@ -510,31 +464,19 @@ Solve for <span class="math inline">\(K\)</span>, we have <span class="math inli
 <p>a). P(X &gt; 17) = P(Z &gt; -5/4) = 1 - P(Z &lt; -5/4) = 0.8944.</p>
 <p><br />
 </p>
-<center>
-<img src="week04/example08a.png" width= "600"  height="180">
-</center>
-<p><br></p>
+<p><img src="week04/example08a.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>b). P(X &lt; 13) = P(Z &lt; 9/4) = 0.012.</p>
 <p><br />
 </p>
-<center>
-<img src="week04/example08b.png" width= "600"  height="180">
-</center>
-<p><br></p>
+<p><img src="week04/example08b.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>c). P(25 &lt; X 31) = P(3/4 &lt; Z &lt; 9/4) = P(Z &lt; 9/4) - P(Z &lt; 3/4) = 0.9878 - 0.9734 = 0.2144.</p>
 <p><br />
 </p>
-<center>
-<img src="week04/example08c.png" width= "680"  height="200">
-</center>
-<p><br></p>
+<p><img src="week04/example08c.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>d). Since P(Z &lt; Zo) =0.10, we have Zo = - 1.28 (from the normal table). The desired clear height (10th percentile) is <span class="math inline">\(X = 22-1.28\times4\)</span> = 16.88 feet.</p>
 <p><br />
 </p>
-<center>
-<img src="week04/example08d.png" width= "600"  height="220">
-</center>
-<p><br></p>
+<p><img src="week04/example08d.png" width="60%" style="display: block; margin: auto;" /></p>
 <p><font color = "darkred"><b>Example 9.</b></font> In redesigning jet ejection seats to better accommodate women as pilots, it is found that women’s weights are normally distributed with a mean of 143 lb and a standard deviation of 29 lb.</p>
 <p>a). If a woman is randomly selected, what is the probability that she weighs between 163 lb and 201 lb?</p>
 <p>b). If the current ejection seat for men weighs between 130 lb and 211 lb, what percentage of women have weights that are within those limits?</p>
@@ -545,44 +487,34 @@ Solve for <span class="math inline">\(K\)</span>, we have <span class="math inli
 <p><strong>Solution</strong> The following are brief solutions with graphical explanations.</p>
 <p>a). P(163 &lt; X &lt; 201) = P(0.69 &lt; Z &lt; 2) = P(Z &lt; 2) - P(Z &lt; 0.69) = 0.9772 - 0.7549 = 0.2223.<br />
 </p>
-<center>
-<img src="week04/example09a.png" width= "600"  height="220">
-</center>
-<p><br></p>
+<p><img src="week04/example09a.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>b). P(130 &lt; X &lt; 211) = P(-0.45 &lt; Z &lt; 2.35) = P(Z &lt; 2.35) - P(Z &lt; -0.45) = 0.9906 - 0.3264 = 0.6642.<br />
 </p>
-<center>
-<img src="week04/example09b.png" width= "600"  height="220">
-</center>
-<p><br></p>
+<p><img src="week04/example09b.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>c). P(X &lt; 125) = P(Z &lt; -0.62) = 0.2676.<br />
 </p>
-<center>
-<img src="week04/example09c.png" width= "600"  height="190">
-</center>
-<p><br></p>
+<p><img src="week04/example09c.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>d). P(x=143) = 0.</p>
 <p>e). P(90 &lt; X &lt; 130) = P(-1.83 &lt; Z &lt; -0.45) = P(Z &lt; -0.45) - P(Z &lt; -1.83) = 0.3264 - 0.0336 = 0.2928.</p>
-<br />
-
-<center>
-<img src="week04/example09e.png" width= "600"  height="210">
-</center>
-<p><br></p>
+<p><br />
+</p>
+<p><img src="week04/example09e.png" width="60%" style="display: block; margin: auto;" /></p>
 <p>f). P(z &lt; <span class="math inline">\(z_0\)</span>) = 0.1, so we get <span class="math inline">\(z_0\)</span> = -1.285. The <span class="math inline">\(P_{10}\)</span> is calculated by <span class="math inline">\(x = 143-1.285\times 29 = 105.73\)</span>.</p>
-<br />
-
-<center>
-<img src="week04/example09f.png" width= "600"  height="210">
-</center>
-<p><br></p>
+<p><br />
+</p>
+<p><img src="week04/example09f.png" width="60%" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 <div id="use-of-technology-2" class="section level2 hasAnchor" number="5.3">
 <h2><span class="header-section-number">5.3</span> Use of Technology<a href="normal-distributions.html#use-of-technology-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The home-grown <strong>IntroStatsApps</strong> has a standard normal distribution we can use.</p>
-<p><a href="https://wcupeng.shinyapps.io/ZTable/" class="uri">https://wcupeng.shinyapps.io/ZTable/</a></p>
+<p>Two of the <strong>ISLA</strong> apps can be used to answer questions associated with the topics in this chapter. distribution we can use.</p>
+<ul>
+<li><a href="https://wcupeng.shinyapps.io/ZTable/">Normal Table App</a> illustrate how to use standard normal table to answer the two basic questions based on the standard normal distribution.</li>
+</ul>
 <p><img src="week04/introStatsApps-Ztable.png" width="80%" style="display: block; margin: auto;" /></p>
+<ul>
+<li><a href="https://peng-isla.shinyapps.io/TwoQ4NormalDist/">Genaral Normal Distribution App</a> can be used to answer the two basic types of questions based on any normal distributions (including the standard normal distribution)</li>
+</ul>
 
 </div>
 </div>
@@ -634,7 +566,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["MAT121.pdf", "MAT121.epub"],
+"download": ["MAT121EB.pdf", "MAT121EB.epub"],
 "search": {
 "engine": "fuse",
 "options": null

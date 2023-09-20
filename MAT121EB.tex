@@ -723,10 +723,9 @@ We still use the same app that we used in the previous note to find various nume
 
 \hfill\break
 
-\begin{quote}
 \textbf{Q}: Why do we need to study probability?
+
 \textbf{A}: We can build a bridge between a sample and its population so that one can make inferences about the population from its samples.
-\end{quote}
 
 In this note, we introduce the definitions of probability, random variables, and problems associated with a distribution based on a special distribution: uniform distribution.
 
@@ -1019,6 +1018,8 @@ The standard normal distribution is the most frequently used distribution in thi
 
 The standard normal distribution, \(Z\), has a mean of \(\mu = 0\) and a standard deviation of \(\sigma = 1\). Its probability density curve is
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/z-Dist} \end{center}
+
 Two basic types of questions need to be answered for any distribution including the standard normal distribution:
 
 \begin{enumerate}
@@ -1031,6 +1032,8 @@ Two basic types of questions need to be answered for any distribution including 
 
 We have discussed how to find probabilities from the uniform distribution in topic \#3 whose density curve is a rectangle. The probabilities of events defined based on uniform distributions are the areas of rectangles using the area formula of a rectangle. We still need to find the probability of events defined based on the standard normal distribution like P(\(-0.86 < Z < 0\)) which is still the area of the following shaded region (as outlined in the previous note for any general distribution).
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/z-Prob} \end{center}
+
 \hfill\break
 
 \hypertarget{finding-probabilities}{%
@@ -1039,6 +1042,8 @@ We have discussed how to find probabilities from the uniform distribution in top
 Unlike uniform distributions whose density curves are rectangles, we can use the formula to calculate the areas of rectangles. In a standard normal distribution, there is no formula to calculate the area of the shaded irregular region in the above figure.
 
 We will use a standard normal distribution table to find the area of the left-hand side tail regions shown below (part of the table).
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/z-LeftTailArea} \end{center}
 
 Before doing examples, we point out the basic facts of the standard normal distribution.
 
@@ -1060,6 +1065,8 @@ Example 1. Find the probabilities indicated, where as always Z denotes a standar
 
 \textbf{Solution}. First of all, we only keep two decimal places for the z value (also called z-score). When using the table, we first locate the integral part and the first decimal place of the z score in the \textbf{first column} and the second decimal place in the \textbf{top row}. The \textbf{left tail area} is on the interaction of the aforementioned row and column. This is explained in the following figure.
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example01} \end{center}
+
 Example 2. Find the probabilities indicated, where as always Z denotes a standard normal random variable.
 
 1). P(Z \textgreater{} - 1.96).
@@ -1068,17 +1075,25 @@ Example 2. Find the probabilities indicated, where as always Z denotes a standar
 
 \textbf{Solution}: The probabilities to be found represent the areas of right tail regions. We can use the table to find the area of the left tail region and then subtract it from 1 to get the desired probability. The following figure illustrates the idea to get the ``right-tail'' probabilities.
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example02} \end{center}
+
 Example 3. Find the probabilities indicated, where as always Z denotes a standard normal random variable.
 
 1). P(-1.96 \textless{} Z \textless{} 0.75).
 
 \textbf{Solution}: The general idea is to find the two \textbf{left tail areas} and then take the difference to get the area of the region defined by the two z-scores as shown in the following figure.
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/betweenArea} \end{center}
+
 For 1), the probability is found in the following figure.
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example03} \end{center}
 
 \textbf{Summary of Finding Probabilities}
 
 \hfill\break
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/summaryFindingProb} \end{center}
 
 \hypertarget{finding-percentiles}{%
 \subsection{Finding Percentiles}\label{finding-percentiles}}
@@ -1091,6 +1106,8 @@ P(Z < k) = 0.90,
 \]
 for a given q (such as 90\%, etc). This is depicted in the following figure.
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/findingPercentile} \end{center}
+
 The process of finding a percentile is the opposite of the process of finding probability. If the given left tail probability itself is in the main body of the table, we then locate the row and the column to find the z-score (i.e., the percentile).
 
 In general, the given left tail probability is not in the table but is closest to two values in the main boy of the table. Each of the two closed table values corresponds to a z-score. The average of the two z-scores is defined to be the desired percentile.
@@ -1098,6 +1115,8 @@ In general, the given left tail probability is not in the table but is closest t
 Example 4. Find 90th percentile of the standard normal distribution.
 
 \textbf{Solution}: We go to the normal table and find two values in the main body of the table that is closest to 0.9 (see the figure below).
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/finding90thPercentile} \end{center}
 
 \hfill\break
 
@@ -1127,7 +1146,11 @@ Example 5. \textbf{The Precision Scientific Instrument Company} manufactures the
 
 5). P( -1.5 \textless{} Z \textless{} 0) = P(Z \textless{} 0) - P(Z \textless{} -1.5) = 0.5 - P(Z \textless{} -1.5) = 0.5 - 0.0668 = 0.4332
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example05-5} \end{center}
+
 7). We want to find \(P_{95}\), or equivalently, to find \(k\) from \(P(Z < k) = 0.95\). We can see from the normal table that 0.9495 and 0.9505 are the two values that are closest to 0.95. The two corresponding z-scores are 1.64 and 1.65. By the convention, the 95th percentile is the average of the two z-scores (see the figure below).
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example05-7} \end{center}
 
 \hfill\break
 
@@ -1140,9 +1163,13 @@ Example 5. \textbf{The Precision Scientific Instrument Company} manufactures the
 
 In practice, we rarely have a standard normal distribution. Many real-world problems are associated with general normal distribution. We still need to answer the two basic types of questions: finding probabilities and percentile. The following figure illustrates the two types of questions based on the normal distribution with a mean of 500 (\(\mu = 500\)) and a standard deviation of 100 (\(\sigma = 100\))
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/twoTypeQuestions} \end{center}
+
 The question is whether we cannot use the standard normal distribution table to answer the above two types of questions associated with general normal distribution.
 
 We can use z-score transformation to transform general normal distributions to the standard normal distribution to use the table and then transform back the original general normal distribution. The following figure outlines the above idea.
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/z-ScoreTranform} \end{center}
 
 \hypertarget{finding-probabilities-1}{%
 \subsection{Finding Probabilities}\label{finding-probabilities-1}}
@@ -1153,6 +1180,8 @@ Example 6. Consider the general normal distribution \(N(500, 100)\). Find \(P(X 
 
 \textbf{Solution}. The following figure shows the z-score transformation to obtain the answer.
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example06} \end{center}
+
 \hypertarget{finding-percentiles-1}{%
 \subsection{Finding Percentiles}\label{finding-percentiles-1}}
 
@@ -1161,6 +1190,8 @@ We continue to use the previous normal distribution as an example to show how to
 Example 7. Consider the general normal distribution \(N(500, 100)\). Find the 15th percentile.
 
 \textbf{Solution: } We are given that the left tail area is 0.15. After z-score transformation, the left tail area of the standard normal density curve is also 0.15 (see the following figure). We can find \(Z_0\) from \(P(Z < Z_0) = 0.15\) using the standard normal table which is \(Z_0 \approx -1.04\).
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example07} \end{center}
 
 Using the relationship between \(Z_0\) and \(K\) in the z-score transformation (see the above figure). We have
 
@@ -1185,17 +1216,25 @@ a). P(X \textgreater{} 17) = P(Z \textgreater{} -5/4) = 1 - P(Z \textless{} -5/4
 
 \hfill\break
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example08a} \end{center}
+
 b). P(X \textless{} 13) = P(Z \textless{} 9/4) = 0.012.
 
 \hfill\break
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example08b} \end{center}
 
 c). P(25 \textless{} X 31) = P(3/4 \textless{} Z \textless{} 9/4) = P(Z \textless{} 9/4) - P(Z \textless{} 3/4) = 0.9878 - 0.9734 = 0.2144.
 
 \hfill\break
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example08c} \end{center}
+
 d). Since P(Z \textless{} Zo) =0.10, we have Zo = - 1.28 (from the normal table). The desired clear height (10th percentile) is \(X = 22-1.28\times4\) = 16.88 feet.
 
 \hfill\break
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example08d} \end{center}
 
 Example 9. In redesigning jet ejection seats to better accommodate women as pilots, it is found that women's weights are normally distributed with a mean of 143 lb and a standard deviation of 29 lb.
 
@@ -1215,9 +1254,15 @@ f). Find the 10th percentile P10, that is, the weight separating the bottom 10\%
 
 a). P(163 \textless{} X \textless{} 201) = P(0.69 \textless{} Z \textless{} 2) = P(Z \textless{} 2) - P(Z \textless{} 0.69) = 0.9772 - 0.7549 = 0.2223.\\
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example09a} \end{center}
+
 b). P(130 \textless{} X \textless{} 211) = P(-0.45 \textless{} Z \textless{} 2.35) = P(Z \textless{} 2.35) - P(Z \textless{} -0.45) = 0.9906 - 0.3264 = 0.6642.\\
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example09b} \end{center}
+
 c). P(X \textless{} 125) = P(Z \textless{} -0.62) = 0.2676.\\
+
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example09c} \end{center}
 
 d). P(x=143) = 0.
 
@@ -1225,18 +1270,32 @@ e). P(90 \textless{} X \textless{} 130) = P(-1.83 \textless{} Z \textless{} -0.4
 
 \hfill\break
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example09e} \end{center}
+
 f). P(z \textless{} \(z_0\)) = 0.1, so we get \(z_0\) = -1.285. The \(P_{10}\) is calculated by \(x = 143-1.285\times 29 = 105.73\).
 
 \hfill\break
 
+\begin{center}\includegraphics[width=0.6\linewidth]{week04/example09f} \end{center}
+
 \hypertarget{use-of-technology-2}{%
 \section{Use of Technology}\label{use-of-technology-2}}
 
-The home-grown \textbf{IntroStatsApps} has a standard normal distribution we can use.
+Two of the \textbf{ISLA} apps can be used to answer questions associated with the topics in this chapter. distribution we can use.
 
-\url{https://wcupeng.shinyapps.io/ZTable/}
+\begin{itemize}
+\tightlist
+\item
+  \href{https://wcupeng.shinyapps.io/ZTable/}{Normal Table App} illustrate how to use standard normal table to answer the two basic questions based on the standard normal distribution.
+\end{itemize}
 
 \begin{center}\includegraphics[width=0.8\linewidth]{week04/introStatsApps-Ztable} \end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://peng-isla.shinyapps.io/TwoQ4NormalDist/}{Genaral Normal Distribution App} can be used to answer the two basic types of questions based on any normal distributions (including the standard normal distribution)
+\end{itemize}
 
 \hypertarget{clt-and-sampling-distributions}{%
 \chapter{CLT and Sampling Distributions}\label{clt-and-sampling-distributions}}
@@ -2463,7 +2522,7 @@ The form of \(H_a\) indicates that this is a right-tailed test with a rejection 
 \textbf{Step 5}: Statistical decision on \textbf{Ho} ( always on Ho ).
 Since the test statistics \(TS = 3.773\) is in the rejections, we \textbf{REJECT} the null hypothesis \textbf{Ho: } \(\mu \le 50352\) and \textbf{CONCLUDE} the alternative hypothesis \textbf{Ha: } \(\mu > 50352\).
 
-\textbf{Step 6}: The sample evidence supports the claim that the mean salary is \textbf{higher than} \$50352.
+\textbf{Step 6}: The sample evidence supports the claim that the mean salary is \textbf{higher than} 50352 dolloars.
 
 \hfill\break
 
@@ -3184,7 +3243,7 @@ A correlation exists between two numeric variables when one of them is related t
 
 \hfill\break
 
-\begin{center}\includegraphics[width=0.4\linewidth]{week12/scatterPlot} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/scatterPlot} \end{center}
 
 \hypertarget{linear-correlations}{%
 \subsection{Linear Correlations}\label{linear-correlations}}
@@ -3198,47 +3257,54 @@ We now look at a few scatter plots that demonstrate different general relationsh
   \begin{itemize}
   \tightlist
   \item
-    \textbf{Positive linear association}: The scatter plot has points that incline upwards to the right: As x values increase, y values increase. As x values decrease, y values decrease. \\
+    \textbf{Positive linear association}: The scatter plot has points that incline upwards to the right: As x values increase, y values increase. As x values decrease, y values decrease.
   \end{itemize}
 \end{itemize}
 
-\begin{center}\includegraphics[width=0.25\linewidth]{week12/linearPos} \end{center}
+\hfill\break
+
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/linearPos} \end{center}
 
 \begin{itemize}
 \tightlist
 \item
   \textbf{Example 1}. There's a positive \textbf{correlation} between height and weight. In general, as the weight increases, the height increases.
-  ~
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{Negative linear association}: The scatter plot has points that decline down to the right. As x values increase, y values decrease. As x values decrease, y values increase.\\
-  \item
-    \textbf{Example 2}. There exist a negative correlation between absence and the scores obtained by the student in the exams, i.e., the more lectures a student missed, the lower the scores he/she will obtain in the exam.
-  \end{itemize}
 \end{itemize}
 
-\begin{center}\includegraphics[width=0.25\linewidth]{week12/linearNeg} \end{center}
+~
+
+\begin{itemize}
+\item
+  \textbf{Negative linear association}: The scatter plot has points that decline down to the right. As x values increase, y values decrease. As x values decrease, y values increase.\\
+\item
+  \textbf{Example 2}. There exist a negative correlation between absence and the scores obtained by the student in the exams, i.e., the more lectures a student missed, the lower the scores he/she will obtain in the exam.
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/linearNeg} \end{center}
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Non-linear Relationships} have an apparent pattern, just not linear. The following two figures represent a quadratic relationship between two numeric variables. \\
+  \textbf{Non-linear Relationships} have an apparent pattern, just not linear. The following two figures represent a quadratic relationship between two numeric variables.
 \end{itemize}
+
+\hfill\break
 
 \begin{center}\includegraphics[width=0.6\linewidth]{week12/curveLinear} \end{center}
 
 \hfill\break
 + \textbf{Example 3}. Non-linear relationship is everywhere in the real world. For example, the following figure based on real-world data shows two special non-linear relationships. \emph{Left Panel}: the relationship between age and death rate worldwide in 2007. \emph{Right Panel}: the US infant mortality rate and maternal age.
+
 ~
 
 \begin{center}\includegraphics[width=0.8\linewidth]{week12/deathRates} \end{center}
 
 \hfill\break
-* When two variables have \textbf{no relationship}, there is no straight-line relationship or non-linear relationship. When one variable changes, it does not influence the other variable.\\
+* When two variables have \textbf{no relationship}, there is no straight-line relationship or non-linear relationship. When one variable changes, it does not influence the other variable.
 
-\begin{center}\includegraphics[width=0.25\linewidth]{week12/uncorrelated} \end{center}
+\hfill\break
+
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/uncorrelated} \end{center}
 
 \begin{itemize}
 \tightlist
@@ -3258,7 +3324,7 @@ r = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x}
 \]
 The structure of data used in estimating the correlation coefficient is something like the following data which will be used in the following Example 5.
 
-\begin{center}\includegraphics[width=0.2\linewidth]{week12/correlationData} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/correlationData} \end{center}
 
 We can think about \textbf{Height(cm)} and \textbf{Weight(kg)} to be \(X\) and \(Y\). The components in the formula of the correlation coefficient are important `sum of squares which are used in the parameters in the simple linear regression (with only one independent variable).
 
@@ -3278,7 +3344,7 @@ The calculation of the sum of squares is not difficult but could be time-consumi
 
 \textbf{Solution}: We first make the scatter plot in the following.
 
-\begin{center}\includegraphics[width=0.4\linewidth]{week12/example05} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/example05} \end{center}
 
 Using the above formula, we calculate the coefficient of correlation between weight and height and obtain \(r = 0.789\). You can use IntroStatsApps (\url{https://chengpeng.shinyapps.io/correlation-reg/}) to calculate the correlation coefficient on any other data. This data was used in the App as a default example.
 
@@ -3397,7 +3463,7 @@ The above regression indicates that if we increase the alcohol content by 1 unit
 
 The coefficient of determination assesses the goodness of the regression line by measuring the amount of variation in the response captured by the regression model. To develop a formula to calculate the coefficient of determination, we need the following sum of squares of errors depicted in the following figure.
 
-\begin{center}\includegraphics[width=0.4\linewidth]{week12/Rsq} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/Rsq} \end{center}
 
 where
 
@@ -3485,7 +3551,7 @@ This app analyzes user input data. You can click this link \url{https://chengpen
   When an anthropologist finds skeletal remains, they need to figure out the height of the person. The height of a person (in cm) and the length of their metacarpal bone (in cm) were collected and are in the following table.
 \end{enumerate}
 
-\begin{center}\includegraphics[width=0.2\linewidth]{week12/ex01} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/ex01} \end{center}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3495,7 +3561,7 @@ This app analyzes user input data. You can click this link \url{https://chengpen
   The World Bank collected data on the percentage of GDP that a country spends on health expenditures (``Health expenditure,'' 2013) and also the percentage of women receiving prenatal care (``Pregnant woman receiving,'' 2013). The part of the data for the countries where this information is available for the year 2011 is in the following table.
 \end{enumerate}
 
-\begin{center}\includegraphics[width=0.2\linewidth]{week12/ex02} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/ex02} \end{center}
 
 (1). Create a scatter plot of the data and find a regression equation between the percentage spent on health expenditure and the percentage of women receiving prenatal care.
 
@@ -3512,7 +3578,7 @@ receiving prenatal care for a country that spends 5.0\% of GDP on health expendi
   A random sample of beef hotdogs was taken, and the amount of sodium (in mg) and calories were measured (``Data hotdogs,'' 2013). The data are in the following table.
 \end{enumerate}
 
-\begin{center}\includegraphics[width=0.2\linewidth]{week12/ex03} \end{center}
+\begin{center}\includegraphics[width=0.5\linewidth]{week12/ex03} \end{center}
 
 (1). Create a scatter plot and find a regression equation between the number of calories and the amount of sodium.
 
@@ -3609,6 +3675,7 @@ G^2 = \frac{(O_1-E_1)^2}{E_1} + \frac{(O_2-E_2)^2}{E_2} + \cdots + \frac{(O_k-E_
 \]
 
 A small \(G^2\) indicates a lack of evidence for rejecting the null hypothesis. This implies that \textbf{the Pearson chi-square test of goodness is always a right-tailed test}.
+
 The degrees of freedom are always \((k-1)\) if the categorical factor variable has k levels.
 
 \textbf{Example 3}. A gambler wants to test a die to determine whether it is fair. The gambler rolls a die that has six possible outcomes: 1, 2, 3, 4, 5, and 6; and the die is fair if each of these outcomes is equally likely. The gambler rolls the die 60 times and counts the number of times each number comes up. These counts, which are called the observed frequencies, are
